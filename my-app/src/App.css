@@ -1,0 +1,177 @@
+.Note-Tracker {
+  background-image: url("./components/images/Note-Taker.PNG");
+}
+
+.Weather-Dashboard {
+  background-image: url("./components/images/Weather-Dashboard.PNG");
+}
+
+.Team-Profile-Generator {
+  background-image: url("./components/images/My-Team.PNG");
+}
+
+.Budget-Tracker {
+  background-image: url("./components/images/Budget.png");
+}
+
+.Password-Generator {
+  background-image: url("./components/images/Password.PNG");
+}
+
+.Employee-Management-System{
+  background-image: url("./components/images/Management.PNG");
+}
+
+:root {
+  --dark-grey: rgb(49, 48, 48);
+}
+
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  background-color: white;
+  line-height: 2;
+}
+
+header {
+  padding: 15px 6% 15px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: var(--dark-grey);
+}
+header h1 {
+  color: var(--dark-grey);
+  background-color: white;
+  padding: 1px 1% 1px 1%;
+  margin: 0;
+  font-size: 4vw;
+  line-height: 1;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 6px 8px;
+  color: white;
+  margin-right: 10px;
+  background-size: 100% 0.2em;
+  background-position: bottom;
+  font-size: 2rem;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+main {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+/*  Adding in the hero banner */
+.backgroudimg {
+  background: rgb(68, 88, 120);
+  background-image: url("./components/images/background.jpg"), linear-gradient(180deg, white 0%, black 100%);
+  background-size: cover;
+  background-position: center;
+  min-height: 20vh;
+  padding: 3% 5%;
+  text-align: right;
+}
+
+.backgroudimg h2 {
+  background-color: white;
+  color: var(--tertiary);
+  margin: 0;
+  padding: 5px 10px;
+  font-size: 3rem;
+  line-height: 1.2;
+  display: inline;
+}
+
+
+
+.page-container {
+  max-width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+    font-size: 20%;
+}
+
+
+
+.work-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-me {
+  min-height: 150px;
+  max-height: 150px;
+  font-size: 2rem;
+  font-weight: bolder;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  color: black;
+  background-blend-mode: soft-light;
+  background-size: 200%;
+  font-size: 1rem;
+}
+
+.item {
+  border: 5px solid white;
+  background-color: var(--dark-grey);
+  min-height: 150px;
+  max-height: 150px;
+  flex-basis: calc(50% - 1em);
+  display: flex;
+  align-items: flex-end;
+  margin: 1em;
+  color: black;
+  background-blend-mode: soft-light;
+  background-size: 200%;
+  font-size: 1rem;
+}
+
+.item:hover {
+  background-color: transparent;
+}
+
+.item div {
+  background-color: white;
+  padding: 3px 10px 3px 3px;
+  line-height: 2;
+}
+
+.contact-info address {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.contact-info address a {
+  color: var(--dark-grey);
+  padding: 5px;
+  font-size: 2rem;
+  background-size: 100% 0.2em;
+  background-position: bottom;
+  margin: 0 0.2rem 0.1rem;
+
+}
